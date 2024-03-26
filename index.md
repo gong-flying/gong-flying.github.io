@@ -6,7 +6,7 @@
 
 ## 系统固件
 <div align="left">
-    <img src="https://landscape.riscv.org/logos/das-u-boot.svg" alt="图片1" width="65" >
+    <img src="https://gong-flying.github.io/logos/das-u-boot.svg" alt="图片1" width="65" >
     <img src="https://landscape.riscv.org/logos/tiano-core.svg" alt="图片2" width="160">
     <img src="https://landscape.riscv.org/logos/open-sbi.svg" alt="图片3" width="100">
 </div>
