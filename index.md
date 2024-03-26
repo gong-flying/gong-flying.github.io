@@ -1,51 +1,76 @@
----
-layout: page
----
+基于数据中心的RISC-V软件生态Landscape
 
-# About Me
+# 基于数据中心的RISC-V软件生态建设
 
-<img src="https://gong_flying.github.io/logo.png" class="floatpic" width="360" height="480">
+该项目致力于打造专门针对**数据中心的RISC-V软件生态系统**，其中包括**编译器**、**工具链**、**操作系统**、**内核**、**虚拟化**、以及**调试和分析**工具等
 
-Here is **IDC landspace.pdf**.
+## 系统固件
+<div align="left">
+    <img src="https://landscape.riscv.org/logos/das-u-boot.svg" alt="图片1" width="65" >
+    <img src="https://landscape.riscv.org/logos/tiano-core.svg" alt="图片2" width="160">
+    <img src="https://landscape.riscv.org/logos/open-sbi.svg" alt="图片3" width="100">
+</div>
 
-I am a senior undergrad majoring in **EECS** at Fuzhou University and Maynooth University (Combined degrees). Currently, I serve as a research assistant at the IIoT-Lab, advised by [Prof. Zhezhuang Xu](https://www.researchgate.net/profile/Zhezhuang-Xu) and [Dr. Meng Yuan](https://www.researchgate.net/profile/Meng-Yuan-4). I also spent a lovely summer research program with [Prof. Pietro Liò's team](https://www.cl.cam.ac.uk/~pl219/) at Cambridge University. Recently, I have been selected as an **AAAI UC Scholar**. I will be attending AAAI-24 in person, please feel free to chat with me!
+## 操作系统
+<div align="left">
+    <img src="https://landscape.riscv.org/logos/open-euler.svg" alt="图片1" width=100" style="margin-right: 20px;">
+    <img src="https://landscape.riscv.org/logos/linux.svg" alt="图片2" width="65" style="margin-right: 10px;">
+    <img src="https://landscape.riscv.org/logos/free-rtos.svg" alt="图片3" width="110">
+    <img src="https://landscape.riscv.org/logos/yocto-project.svg" alt="图片4" width=100" style="margin-right: 10px;">
+    <img src="https://landscape.riscv.org/logos/debian.svg" alt="图片5" width="60" style="margin-right: 10px;">
+</div>
 
-If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *hanlin[dot]cai[at]ieee[dot]org*
+## 编译工具链
+<div align="left">
+    <img src="https://landscape.riscv.org/logos/gnu-compiler-collection.svg" alt="图片1" width=60" style="margin-right: 20px;">
+    <img src="https://llvm.org/docs/_static/logo.png" alt="图片2" width="130" style="margin-right: 10px;">
+    <img src="https://landscape.riscv.org/logos/qemu.svg" alt="图片3" width="120">
+    <img src="https://landscape.riscv.org/logos/spike.svg" alt="图片4" width=80">
+    <img src="https://landscape.riscv.org/logos/musl.svg" alt="图片5" width="80" >
+    <img src="https://landscape.riscv.org/logos/open-blas.svg" alt="图片6" width="80">
+    <img src="https://landscape.riscv.org/logos/open-ssl.svg" alt="图片7" width=80">
+</div>
 
-## Academic Background
+## Runtimes
+<div align="left">
+    <img src="https://landscape.riscv.org/logos/open-jdk.svg" alt="图片1" width=100" style="margin-right: 20px;">
+    <img src="https://landscape.riscv.org/logos/python.svg" alt="图片2" width="60" style="margin-right: 10px;">
+</div>
 
-**<font color='red'>[Highlight]</font> I am actively looking for PhD position to start in 2025 Fall. Contact me if you have any leads!**
+## 虚拟化和容器化平台
+<div align="left">
+    <img src="https://landscape.riscv.org/logos/docker.svg" alt="图片1" width=60" style="margin-right: 20px;">
+    <img src="https://landscape.cncf.io/logos/e0303fdc381c96c1b4461ad1a2437c8f050cfb856fcb8710c9104367ca60f316.svg" alt="图片2" width="80" style="margin-right: 10px;">
+    <img src="https://www.openeuler.org/assets/isula-logo.a463f902.png" alt="图片3" width="60">
+    <img src="https://landscape.cncf.io/logos/4d6a2b87a6c9a01ed1b82cef5db978e273adb99fda44d47e5dae48f75207147c.svg" alt="图片4" width=80">
+</div>
 
-- **Sep 2024 - Sep 2025：**Cambridge University (MPhil, EE)
-- **Sep 2020 - June 2024:** Maynooth University (BSc, EECS)
-- **Sep 2020 - June 2024:** Fuzhou University (BEng, EECS)
-- **June 2022 - Nov 2022:** Cambridge University (Intern)
+## hypervisor
+<div align="left">
+    <img src="https://landscape.riscv.org/logos/kernel-based-virtual-machine.svg" alt="图片1" width=80" style="margin-right: 20px;">
+    <img src="https://www.openeuler.org/assets/logo.5a2efacc.png" alt="图片2" width="60" style="margin-right: 10px;">
+</div>
 
----
+## application
+<div align="left">
+    <img src="https://kunpengcompute.github.io/arm-landscape/assets/images/bigdata/hadoop/logo.png" alt="图片1" width=80" style="margin-right: 20px;">
+    <img src="https://landscape.cncf.io/logos/b9fa977aef4de3eccb2757451fda732e2c0b44091bf235d42da4639d4f0ecb77.svg" alt="图片2" width="90" style="margin-right: 10px;">
+    <img src="https://landscape.riscv.org/logos/py-torch.svg" alt="图片3" width="100">
+    <img src="https://landscape.riscv.org/logos/open-blas.svg" alt="图片4" width=80">
+    <img src="https://landscape.riscv.org/logos/caffe.svg" alt="图片5" width="80">
+    <img src="https://landscape.riscv.org/logos/open-cv.svg" alt="图片6" width=60">
+</div>
 
-## Research Interests
+## 芯片或者硬件提供
+<div align="left">
+    <img src="https://xiangshan-doc-en.readthedocs.io/en/latest/figs/LOGO.png" alt="图片1" width=100" style="margin-right: 20px;">
+    <img src="https://img-blog.csdnimg.cn/direct/3d50ab1cd2fe4bcca4298b56eb003005.png" alt="图片2" width="100" style="margin-right: 10px;">
+    <img src="https://img-blog.csdnimg.cn/direct/bce49421bf9545e8ac59183f95d5e381.png" alt="图片3" width="80">
+    <img src="https://img-blog.csdnimg.cn/direct/36430fa31e474623828f1196570d26b5.png" alt="图片4" width=80">
+</div>
 
-- Internet of Everything (IoE)
-- Cyber-Physical System
-- Industrial Informatics
-- Applied Machine Learning
-- [My latest research proposal](https://caihanlin.com/file/proposal-2023.pdf) 🔗
-
-My current research focuses on practical problems that artificial intelligence faces in real life. My interests are on the **Machine Learning** and its applications in **Industrial IoT**. In a word, advanced technologies like ML and IoT positively influence the life of everybody.  I wish to devote my talent to this meaningful cause and bring well-being to society.
-
----
-
-## News and Updates
-
-- **March 2024：**Very excited to get a MPhil offer from Engineering department at Cambridge University!
-- **Feb 2024：**Got a MSc offer from the CS department of UCL.
-- **Dec 2023：**Very excited to be selected as [AAAI-24 UC Scholar](https://aaai.org/aaai-conference/undergraduate-consortium-program/), see you in Canada!
-- **Dec 2023：**Got a MSc offer from the physics department of Imperial College London.
-- **Aug 2023：**Happy to be awarded the FEPG Scholarship.
-- **May 2023：**Happy to be awarded the XiamenAir Scholarship.
-- **May 2023：**Collected the Finalist Award in MCM**/**ICM 2023 (Top 1%).
-- **Jan 2023：**One paper accepted to ICAROB 2023, see you in Japan.
-- **Jun 2022：**Started research intern at [Cambridge AI Group](https://www.cl.cam.ac.uk/research/ai/), advised by Prof. Pietro Liò.
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thrilled to be an AAAI-UC Scholar at <a href="https://twitter.com/hashtag/AAAI24?src=hash&amp;ref_src=twsrc%5Etfw">#AAAI24</a>, thanks to <a href="https://twitter.com/hashtag/AAAI?src=hash&amp;ref_src=twsrc%5Etfw">#AAAI</a> &amp; <a href="https://twitter.com/hashtag/GoogleExploreCSR?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleExploreCSR</a> for the sponsorship. Grateful for the knowledge gained and new friendships formed.<br><br>Wonderful trip in Vancouver. Looking forward to staying connected with all.<a href="https://twitter.com/hashtag/AAAI24?src=hash&amp;ref_src=twsrc%5Etfw">#AAAI24</a> <a href="https://twitter.com/hashtag/Vancouver?src=hash&amp;ref_src=twsrc%5Etfw">#Vancouver</a> <a href="https://twitter.com/hashtag/GoogleExploreCSR?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleExploreCSR</a> <a href="https://t.co/wUQUp8XlSM">pic.twitter.com/wUQUp8XlSM</a></p>&mdash; Hanlin CAI (seeking a PhD position 2025) (@lancecai2002) <a href="https://twitter.com/lancecai2002/status/1762210025173344260?ref_src=twsrc%5Etfw">February 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+## 开发者和社区活跃
+<div align="left">
+    <img src="https://img-blog.csdnimg.cn/direct/dd2265f6e280479e8afbccd254f017f8.png" alt="图片1" width=80" style="margin-right: 20px;">
+    <img src="https://riseproject.dev/wp-content/uploads/sites/25/2023/05/logo_with_timeline.svg" alt="图片2" width="100" style="margin-right: 10px;">
+</div>
